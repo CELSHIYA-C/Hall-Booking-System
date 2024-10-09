@@ -1,0 +1,134 @@
+/* Resetting some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #fefefe;
+    color: #121010;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #f31f1f;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+
+/* Hero Section */
+.hero {
+    background-image: url('istockphoto-1396132717-612x612 (1).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    background-color: #ea0ea4;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #ed26cf;
+}
+
+/* Search Section */
+.search-section {
+    background-color: #fdaa7d;
+    padding: 2rem;
+    text-align: center;
+}
+
+.search-box input[type="text"],
+.search-box input[type="date"] {
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-box button {
+    padding: 0.8rem 2rem;
+    border: none;
+    background-color: #ff6600;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Venue Section */
+.venue-section {
+    padding: 2rem;
+    text-align: center;
+    background-image: url(depositphotos_216847726-stock-illustration-abstract-pastel-soft-colorful-smooth.jpg);
+}
+
+.venue-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.venue-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.venue-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.venue-card h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
